@@ -10,3 +10,10 @@ print(f"your name is {name}");
 # kaho na pyar hai
 print("kaho na pyar hai");
 print("five line of the code here");
+print('Suno what are you doing");
+for i in range(1,11):
+	print(i);
+p
+def Hello():
+return f""[DWhat's up boys and Girls";
+# Here is my hero comes to save me every time when he's needed
