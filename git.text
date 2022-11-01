@@ -74,3 +74,5 @@ Your branch is ahead of 'dev1' by 4 commits.
   (use "git push" to publish your local commits)
 
 nothing to commit, working tree clean
+
+git pull arvind_server master
