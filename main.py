@@ -23,3 +23,6 @@ def Hello():
 # Pakistan
 # Canada
 # and manymore place which i want to visit
+
+for i in range(1,11):
+	print(i);
