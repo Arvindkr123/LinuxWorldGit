@@ -48,3 +48,29 @@ See 'git help git' for an overview of the system.
 
 git branch --set-upstream-to=dev1 
 Branch 'master' set up to track local branch 'dev1'.
+
+git status
+On branch master
+Your branch and 'dev1' have diverged,
+and have 3 and 1 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+
+nothing to commit, working tree clean
+
+
+# It work only when you set up the the local branch on setup stream and online branch set up stream
+git pull
+From .
+ * branch            dev1       -> FETCH_HEAD
+Auto-merging main.py
+Merge made by the 'recursive' strategy.
+ main.py | 3 +++
+ 1 file changed, 3 insertions(+)
+
+# Now you can use the push command to Update your changes
+git status
+On branch master
+Your branch is ahead of 'dev1' by 4 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
