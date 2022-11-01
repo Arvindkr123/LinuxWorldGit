@@ -76,3 +76,6 @@ Your branch is ahead of 'dev1' by 4 commits.
 nothing to commit, working tree clean
 
 git pull arvind_server master
+
+it can set the remote repository to local repository to track the branch
+git branch --set-upstream-to=arvind_server/master master
