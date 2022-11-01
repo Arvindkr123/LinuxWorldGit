@@ -16,6 +16,8 @@ for i in range(1,11):
 
 def Hello():
 	return f"What\'s up boys and Girls";
+
+Hello()
 # Here is my hero comes to save me every time when he's neededEvery time you don't need to know who I am
 # United state of America
 # United state of Kingdom
