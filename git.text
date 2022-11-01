@@ -79,3 +79,6 @@ git pull arvind_server master
 
 it can set the remote repository to local repository to track the branch
 git branch --set-upstream-to=arvind_server/master master
+
+# this is to shortcut to track the branch
+git push -u arvind_server dev1
